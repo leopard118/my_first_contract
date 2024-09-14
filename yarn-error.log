@@ -1,0 +1,36 @@
+Arguments: 
+  C:\Users\Leopard-PC\AppData\Roaming\nvm\v20.16.0\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js init
+
+PATH: 
+  C:\Users\Leopard-PC\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Leopard-PC\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\Git\cmd;%NVM_HOME%;%NVM_SYMLINK%;C:\Program Files (x86)\Yarn\bin;C:\Users\Leopard-PC\AppData\Local\Microsoft\WindowsApps;C:\Users\Leopard-PC\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Leopard-PC\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Leopard-PC\AppData\Local\Yarn\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  20.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:137008:13)
+      at Interface.emit (node:events:519:28)
+      at [_ttyWrite] [as _ttyWrite] (node:internal/readline/interface:1126:18)
+      at ReadStream.onkeypress (node:internal/readline/interface:265:20)
+      at ReadStream.emit (node:events:519:28)
+      at emitKeys (node:internal/readline/utils:371:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (node:internal/readline/emitKeypressEvents:64:36)
+      at ReadStream.emit (node:events:519:28)
+      at addChunk (node:internal/streams/readable:559:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
