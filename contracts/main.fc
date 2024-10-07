@@ -19,6 +19,7 @@ const const::min_tons_for_storage = 10000000; ;; TON
   .end_cell()
   );
 } 
+
 () recv_internal(int msg_value, cell in_msg, slice in_msg_body) impure {
   slice cs = in_msg.begin_parse();
   int flags = cs~load_uint(4);
